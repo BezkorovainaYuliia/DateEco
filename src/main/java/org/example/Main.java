@@ -42,8 +42,8 @@ public class Main {
         LocalDateTime localDateTime2 = LocalDateTime.parse(time, formatter2);
         System.out.println(localDateTime2);
 
-       LocalDateTime start = LocalDateTime.of(2025, 02, 01, 11,11,11);
-        LocalDateTime end = LocalDateTime.of(2025, 03, 01, 11,11,11);
+       LocalDateTime start = LocalDateTime.of(2025, 2, 1, 11,11,11);
+        LocalDateTime end = LocalDateTime.of(2025, 3, 1, 11,11,11);
         long diffHours = ChronoUnit.HOURS.between(start, end);
         long diffMinutes = ChronoUnit.MINUTES.between(start, end);
         long diffSeconds = ChronoUnit.SECONDS.between(start, end);

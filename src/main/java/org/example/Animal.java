@@ -4,8 +4,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.Month;
 import java.time.MonthDay;
 import java.time.temporal.ChronoUnit;
 
@@ -16,7 +14,7 @@ public class Animal {
     public static void main(String[] args) {
         Animal animal = new Animal();
         animal.name = "Miura";
-        animal.dateBirth = LocalDate.of(2020, 07, 17);
+        animal.dateBirth = LocalDate.of(2020, 7, 17);
         System.out.println(animal);
        animal.zumNaecstenGeburstag();
 
